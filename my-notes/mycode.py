@@ -11,7 +11,6 @@ def is_prime(n):
         if (n % m) == 0:
             return False
     else:
-        return True
 
 def say_hi(*names, greeting='Hello', capitalized=False):
     """
