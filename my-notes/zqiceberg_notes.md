@@ -56,3 +56,72 @@ Won't have
 
 注意力漂移，是我杜撰的一个词，用来作为 “注意力集中” 的反义词 —— 因为更多的时候，我们并不是 “注意力不集中”，而是…… 而是更令人恼火的一个现象：
 “注意力所集中的焦点总是不断被自己偷偷换掉……
+
+=======兰圃计划培训========
+
+/ 浮点除法
+//整数除法
+
+```
+	who = 'my'
+	name = 'harry'
+sentence = f'{who} name is {name}'
+```
+但是一般常用的是str.format()
+```
+sentence = '{1} name is {0}'.format(who, name)
+```
+
+#### 创建实例
+self
+```python
+class Week:
+	mon = 'Mon'
+	tue = 'Tue'
+
+	def show_day(self, day):
+			if day == 1:
+				print(self.mon)
+			else:
+				print(self.tue)
+
+week = Week()
+week.show_day(1)
+week.show_day(2)
+week.tue = 'Tue Day2'
+week.show_day(2)
+```
+
+
+#### 课上案例
+
+binary_search，随时数生成，random.randint(1, 20),交互猜数
+guess，通过GUI，画数轴的方式，表达猜数的过程。注意，写guidline_EN
+guess_with_log，不清空画布，每次的画图过程保留
+dictionary，python的字典
+flip_coin，正反面硬币，ht = random.randint(0, 1)，来个随机数，取个模，模拟掷硬币的过程
+dice.py，画坐标轴和折线，**这个不懂**
+input.py，文字反馈输入的变量的类型
+lq006.py，商品编号，**这个不懂**
+split.py，切分数据
+strip.py，去空格，去指定字符
+Arithmetic_progression.py，举boss的例子，枚举a1-an,循环的写法，递归的写法
+division.py，不带除号的除法，用减法实现。循环写法，递归写法
+factorial.py，阶乘的循环写法，递归写法
+max_value.py，循环写法，递归写法
+nn.py，打印n个n，循环写法，两个参数写法，一个参数写法
+times.py，n个数相加，循环写法，递归写法
+ascii.py，ord('a')， chr(98)，ascii码
+colon.py，打印格式，列表打印
+exception.py，**这个不懂有啥场景**
+file_organizer.py，创建文件，**这个不懂**
+file_rename.py**这个不懂**
+files.py，写入文件数据
+join_os_join.py，文件路径的join
+list_review.py，list,append数据进去
+nums.py，用递归模拟数学计算过程，深刻理解数学
+paint.py，一道真题，画一个钻石圆圈
+slice.py，字符串操作，split
+split.py，列表的正着取，倒着取，把字符串根据.进行分割
+square.py，turtle画圆圈
+string_stat.py，统计字符串中字符的个数
